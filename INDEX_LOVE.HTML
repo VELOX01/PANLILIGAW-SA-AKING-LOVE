@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can I court you?</title>
+    <link rel="stylesheet" href="CSS_LOVE.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="loading-indicator"></div>
+
+        <div class="envelope-container" id="envelopeContainer">
+            <div class="envelope">
+                <div class="flap top-flap" id="topFlap"></div>
+                <div class="flap left-flap"></div>
+                <div class="flap right-flap"></div>
+                <div class="envelope-front">
+                    <div class="envelope-content-area" id="envelopeContentArea">
+                        <div class="card" id="card">
+                            <p>You're invited to be my Valentine!</p>
+                        </div>
+                        <div class="hearts-inside">
+                            <span class="heart-icon">❤️</span>
+                            <span class="heart-icon">❤️</span>
+                            <span class="heart-icon">❤️</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flap bottom-flap"></div>
+            </div>
+        </div>
+
+        <p class="click-text" id="clickText">Please click the envelope to open!</p>
+
+        <div class="valentine-popup hidden" id="valentinePopup">
+            <img src="images/love_hugging.jpg" alt="Cute Couple hugging" class="popup-image">
+            <h2>Can I Court You?</h2><!--Title-->
+            <div class="popup-message-scrollable">
+                <p>Hi Love, Here we are, what a beautiful day to surprise a wonderful woman like you. I never imagined we would connect the way we have, and the fact that you feel the same still feels like a dream. You've brought so much warmth into my life. I admire your effort, your care, and the honesty you carry in every word and gesture. Welcome to my heart love love! I'm so glad you're here. 💖 </p><!--Input your letter here-->
+            </div>
+            <div class="buttons">
+                <button id="yesBtn">Yes</button>
+                <button id="noBtn">No</button>
+            </div>
+        </div>
+
+        <div class="thank-you-message hidden" id="thankYouMessage">
+            <span class="giant-heart">❤️</span>
+            <p>Thank you for saying yes!! It means more to me than words can ever fully express. In that moment, my heart felt lighter, fuller, and so incredibly happy. You’ve given me the chance to show you just how deeply I care, and I promise to cherish and respect you every step of the way. I’m so grateful for your trust, your openness, and for allowing me into your heart. This is the beginning of something truly beautiful, and I can’t wait to grow with you. Here’s to us, to this journey, and to every little moment we’ll share together. ❤️
+            <br>With all my heart,,
+            Carlo Pragacha ❤️</p> <!--Thank you message-->
+        </div>
+    </div>
+
+    <script src="JAVA_LOVE.JS"></script>
+</body>
+</html>
